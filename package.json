@@ -1,8 +1,8 @@
 {
-  "name": "seraj-cv",
+  "name": "ali-akbar-cv",
   "description": "simple resume builder",
   "version": "1.1.0",
-  "author": "Seraj Vahdati",
+  "author": "Ali Akbar Beigi",
   "private": true,
   "scripts": {
     "dev": "next dev",

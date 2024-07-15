@@ -25,7 +25,7 @@ const Github = () => {
     <Group position="center" my="xl">
       <UnstyledButton aria-label="Github Repository">
         <a
-          href="https://github.com/seraj/seraj-cv"
+          href="https://github.com/omid-6643/"
           target="_blank"
           rel="noopener noreferrer"
         >

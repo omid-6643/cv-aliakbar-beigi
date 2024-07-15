@@ -71,7 +71,7 @@ const ResumeHeader = () => {
   const { colorScheme } = useMantineColorScheme();
   const links = [
     {
-      link: `pdf/light/SerajVahdati-Resume.pdf`,
+      link: `pdf/light/AliAkbarBeigi-Resume.pdf`,
       label: "Download PDF",
     },
   ];

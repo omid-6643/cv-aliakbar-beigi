@@ -26,8 +26,8 @@ const Head = () => {
         </div>
       </div>
 
-      {/* <div className="profile-bio">{profile.bio}</div> */}
-      {/* <p className="profile-summary">
+      <div className="profile-bio">{profile.bio}</div>
+      <p className="profile-summary">
         {profile.summary.split("\n").map(function (item, idx) {
           return (
             <span key={idx}>
@@ -36,7 +36,7 @@ const Head = () => {
             </span>
           );
         })}
-      </p> */}
+      </p>
     </StyledHead>
   );
 };

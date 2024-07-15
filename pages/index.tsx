@@ -12,9 +12,9 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Seraj Vahdati Resume</title>
-        <meta name="description" content="Seraj Vahdati Resume" />
-        <link rel="icon" href="/favicon.png" />
+        <title>Ali Akbar Beigi Resume</title>
+        <meta name="description" content="Ali Akbar Beigi Resume" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <A4Container id="resume-container" className="print-this">
         <MainResume />
