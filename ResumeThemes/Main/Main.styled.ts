@@ -5,6 +5,7 @@ const fontSize = "15px";
 
 type Card = {
   colorScheme: "dark" | "light";
+  children: any;
 };
 export const StyledCard = styled.div<Card>`
   position: relative;
@@ -29,6 +30,7 @@ export const StyledContainer = styled.div`
 type FlexType = {
   direction?: "row" | "column";
   gap?: string;
+  children: any;
 };
 
 export const Divider = styled.div`
@@ -36,7 +38,7 @@ export const Divider = styled.div`
   margin: 10px 0;
 `;
 
-export const StyledCompany = styled.div`
+export const StyledCompany = styled.div<FlexType>`
   display: flex;
   flex-direction: column;
   .company {

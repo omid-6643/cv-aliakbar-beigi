@@ -1,13 +1,20 @@
-import type { NextPage } from "next";
-import styled from "styled-components";
 import { MainResume } from "@themes";
+import type { NextPage } from "next";
 import Head from "next/head";
+import styled from "styled-components";
 
-const A4Container = styled.div`
+interface A4ContainerProps {
+  children?: React.ReactNode;
+  id: string;
+  className: string;
+}
+
+const A4Container = styled.div<A4ContainerProps>`
   min-width: 28cm;
   width: 28cm;
   margin: 0 auto;
 `;
+
 const Home: NextPage = () => {
   return (
     <>
